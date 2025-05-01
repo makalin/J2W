@@ -11,12 +11,17 @@
 - Supports **modular builds** and custom JS subsets  
 - Integrates easily with **Node.js**, **Deno**, and **browser runtimes**  
 - Optional CLI and API interfaces
+- **TypeScript support** for better type safety
+- Comprehensive **test coverage** and linting
+- Modern development workflow with **ES modules**
 
 ## Why J2W?
 
 JavaScript is everywhere. But for performance, size, and security, **WebAssembly** is the future. J2W bridges the gap—bringing the best of both worlds to your stack.
 
-## Installation
+## Quick Start
+
+### Installation
 
 ```bash
 npm install -g j2w
@@ -28,7 +33,7 @@ Or use it directly via CLI:
 npx j2w compile yourfile.js -o output.wasm
 ```
 
-## Usage
+### Basic Usage
 
 ```bash
 j2w compile hello.js -o hello.wasm
@@ -55,17 +60,44 @@ WebAssembly.instantiate(wasmBuffer).then(({ instance }) => {
 });
 ```
 
+## Documentation
+
+For detailed documentation, including API reference, architecture, and development guidelines, please see [DETAILED_DOCUMENTATION.md](docs/DETAILED_DOCUMENTATION.md).
+
+## Development
+
+```bash
+# Clone the repository
+git clone https://github.com/makalin/J2W.git
+cd J2W
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
+
+# Run tests
+npm test
+
+# Development mode
+npm run dev
+```
+
 ## Roadmap
 
+- [x] Basic JavaScript to WASM compilation
+- [x] CLI interface
+- [x] TypeScript support
+- [x] Test coverage
 - [ ] Support full JS subset
-- [ ] TypeScript compatibility
 - [ ] WASI support for backend
 - [ ] REPL and playground
 - [ ] VSCode extension
 
 ## Contributing
 
-Contributions are welcome! Please open issues, suggest features, or submit PRs.
+Contributions are welcome! Please see our [Contributing Guide](docs/DETAILED_DOCUMENTATION.md#contributing) for details.
 
 ## License
 
