@@ -1,10 +1,6 @@
 # J2W – JavaScript to WebAssembly Compiler
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-[![Build](https://img.shields.io/github/actions/workflow/status/makalin/J2W/build.yml?branch=main)](https://github.com/makalin/j2w/actions)  
-[![npm version](https://img.shields.io/npm/v/j2w.svg)](https://www.npmjs.com/package/j2w)  
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/makalin/J2W/pulls)  
-[![Made with Love](https://img.shields.io/badge/made%20with-love-red.svg)](https://github.com/makalin/J2W)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Build](https://img.shields.io/github/actions/workflow/status/makalin/J2W/build.yml?branch=main)](https://github.com/makalin/j2w/actions) [![npm version](https://img.shields.io/npm/v/j2w.svg)](https://www.npmjs.com/package/j2w) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/makalin/J2W/pulls) [![Made with Love](https://img.shields.io/badge/made%20with-love-red.svg)](https://github.com/makalin/J2W)
 
 **J2W** is a high-performance compiler that converts JavaScript into WebAssembly (WASM), enabling fast, portable, and secure execution across **frontend** and **backend** environments.
 
